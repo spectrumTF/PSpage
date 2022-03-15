@@ -1,0 +1,64 @@
+@import "Adobe Clean/stylesheet.css";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Adobe Clean";
+    background: rgb(79,91,102);
+    background: linear-gradient(90deg, rgba(79,91,102,1) 0%, rgba(101,115,126,1) 25%, rgba(101,115,126,1) 50%, rgba(101,115,126,1) 75%, rgba(79,91,102,1) 100%);
+}
+h1 {
+    margin: 0;
+    color: #00001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 7vw;
+    height: 20%;
+    background: rgb(52,61,70);
+    background: radial-gradient(circle, rgba(52,61,70,1) 78%, rgba(30,35,40,1) 100%);
+    font-weight: bold;
+}
+h2 {
+    font-weight: normal;
+    color: #00001A;
+    margin: 0;
+    background: rgb(192,197,206);
+    background: radial-gradient(circle, rgba(192,197,206,1) 78%, rgba(101,115,126,1) 100%);
+    height: 6%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nav_links {
+    background-color: rgb(20, 20, 20);
+    height: 10%;
+    display: flex;
+    justify-content: stretch;
+    vertical-align: middle;
+    text-align: center;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 30px 10%;
+    list-style: none;
+    color: white;
+}
+.nav_links a {
+    color: white;
+}
+.nav_links li {
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(80, 80, 80);
+}
+.nav_links li:hover {
+    background-size: cover;
+    background-color: rgb(50, 50, 50);
+}
